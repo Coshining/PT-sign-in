@@ -1,0 +1,14 @@
+{
+    "pt site config": [
+        {
+            "name": "珀金学院",
+            "url": "https://ptchina.org",
+            "cookie": "xxx"
+        },
+        {
+            "name": "xxx",
+            "url": "https://xxx.xx",
+            "cookie": "xxx"
+        }
+    ]
+}
