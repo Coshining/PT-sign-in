@@ -5,7 +5,7 @@
 ## 使用
 
 ```
-ql repo https://github.com/KunCheng-He/icc2022-sign-in.git "icc2022.py" "" "sendNotify"
+ql repo https://github.com/Coshining/PT-sign-in.git "pt-sign.py" "" "sendNotify"
 ```
 
 青龙面板新增环境变量 `PT_SIGN_CONFIG`，可以根据 `example.json` 格式填写多条PT站配置。
