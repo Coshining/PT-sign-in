@@ -106,8 +106,8 @@ if __name__ == "__main__":
         rep["success" if res[0] else "fail"].append(f"{name} {res[1]}")
 
         print(f"PT站 {name} {url} 签到结束！\n")
-
+    
     send(
         "PT站 签到结果",
-        f"成功站点：{'\n'.join(rep['success'])}\n失败站点：{'\n'.join(rep['fail'])}。",
+        "成功站点：\n" + '\n'.join(rep['success']) + "\n失败站点：" + '\n'.join(rep['fail']) + "。"
     )
